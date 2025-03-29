@@ -1,0 +1,74 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Monster Survivors is an immersive online game where players battle waves of monsters with strategy and quick reflexes." />
+  <link rel="canonical" href="https://monstersurvivors.com/" />
+  <title>Monster Survivors - Online Game</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom Styles using Apple's Typical Color Palette */
+    body {
+      background-color: #F5F5F7; /* Light grey background */
+      color: #1D1D1F; /* Dark text color */
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    a {
+      color: #007AFF; /* Apple's signature blue */
+    }
+    /* Responsive iframe container */
+    .iframe-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+      height: 0;
+      overflow: hidden;
+    }
+    .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+</head>
+<body class="container mx-auto p-4">
+  <!-- Header Section -->
+  <header class="mb-8 text-center">
+    <!-- Main Title (H1) -->
+    <h1 class="text-4xl font-bold mb-4">Monster Survivors</h1>
+    <!-- One-sentence Introduction (H2) -->
+    <h2 class="text-2xl font-semibold mb-6">An immersive adventure battling relentless monsters online.</h2>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Online Game Section -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold mb-4">Play the Game</h2>
+      <div class="iframe-container">
+        <iframe src="https://icloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Game Overview Section -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold mb-4">Game Overview</h2>
+      <p class="text-lg leading-relaxed">
+        Monster Survivors challenges you to navigate through dynamic battlefields, strategically overcoming waves of monsters. With innovative gameplay mechanics and visually stunning graphics, this online game delivers an engaging experience on both PC and mobile devices.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="text-center mt-8">
+    <p>&copy; 2025 Monster Survivors. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+```
